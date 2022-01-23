@@ -1,0 +1,44 @@
+.menu {
+    margin: 0;
+    background-color: blue;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    font-family: serif;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.menu p:hover {
+    color: red;
+}
+#saludo {
+    font-size: 40px;;
+    color: black;
+    font-family: serif;
+    letter-spacing: 0.40em;
+}
+#nombre {
+    font-size: 70px;;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+}
+#titulacion {
+    font-style: italic;
+}
+#boton {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 50px;
+    font-size: 18px
+}
+#boton:hover {
+    cursor: pointer;
+    background-color: yellow;
+}
+
