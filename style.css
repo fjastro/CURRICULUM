@@ -10,6 +10,8 @@
     font-family: serif;
     font-style: italic;
     font-size: 16px;
+    cursor: pointer;
+    text-align: center;
 }
 
 .menu p:hover {
@@ -29,12 +31,39 @@
 #titulacion {
     font-style: italic;
 }
+.datos {
+    font-size: 25px;
+    color: blue;
+    text-align: left;
+}
+.formacion {
+    font-size: 20px;
+    color: blue;
+    text-align: right;
+}
+.aptitudes {
+    font-size: 20px;
+    color: brown;
+    text-align: right;
+}
+.intereses {
+    font-size: 20px;
+    color: brown;
+    text-align: right;
+}
+.redes {
+    color: brown;
+}
+.red {
+    width: 120px;
+    font-size: 30px;
+}
 #boton {
     background-color: blue;
     color: white;
     border: none;
     border-radius: 25px;
-    padding: 50px;
+    padding: 25px;
     font-size: 18px
 }
 #boton:hover {
